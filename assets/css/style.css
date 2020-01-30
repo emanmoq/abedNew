@@ -1,0 +1,154 @@
+
+.logoCont{
+    width:100%;
+    background-image: url("../images/logobg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top:20px;
+    opacity: .5;
+}
+
+.logoCont h4{
+display: inline-block;
+color:#B1841D
+}
+.logoCont .logo{
+display: inline-block;
+width:50px
+}
+img{
+    width: 100%;
+}
+.cardImg{
+    width:40%;
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+}
+.imgCont{
+    width: 32%;
+    height: 146px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 30% auto;
+
+}
+.cardDetails{
+    width:55%;
+    float: right;
+    margin-left:20px;
+    display: inline-block;
+}
+.cardDetails hr{
+    background-color:#4C9D2A;
+    width:100%;
+    height:2px;
+    position: relative;
+    
+}
+.cardDetails hr:before{
+    content: "";
+    position: absolute;
+    left: -15px;
+    height: 3px;
+    top: -1px;
+    background-color: #B1841D;
+    width:3%;
+
+}
+.cardDetails hr:after{
+    content: "";
+    position: absolute;
+    background-color: #B1841D;
+    width:3%;
+    right:-15px;
+    top:-1px;
+    height:3px;
+}
+.cardBody{
+  padding:50px;
+  display: table;
+  width:100%;
+}
+.cardTitle h2{
+    font-size:18px;
+}
+.form-control{
+    border:0;
+    box-shadow: 0;
+    border-bottom: 1px dashed gray;
+    border-radius: 0;;
+}
+.label,.form-control::placeholder{
+    display:block;
+    font-size: 18px;
+    font-weight: 500;
+    margin:0;
+    color:black;
+}
+.label.inline{
+    display: inline-block;
+    
+
+
+}
+.form-control.inline{
+    display: inline-block;
+    border-bottom:2px solid #4C9D2A;
+    width:63%;
+}
+.form-control.Disability{
+    border:0;
+}
+.marginTop{
+    margin-top:20px;
+}
+footer{
+    background-image: url("../images/footer.png");
+    padding:40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.PodCard{
+    background-color: #4C9D2A;
+    border-radius: 20px;
+    color:white;
+    padding:20px;
+    top: -54px;
+    z-index: -1;
+    left: 14%;
+    width: 22%;
+    position: absolute;;
+
+}
+@media(min-width:360px) and (max-width:767px){
+    .cardImg{
+        width:100%;
+    }
+    .cardDetails{
+        width:100%;
+    }
+    .cardBody {
+        padding: 20px 10px;}
+        .imgCont {
+            width: 35%;
+            height: 108px;
+        margin:5% auto;}
+      .PodCard {
+     
+        padding: 14px;
+        top: -40px;
+        left: 1%;
+        width: 39%;
+    }
+    .marginTop {
+        margin-bottom: 31px;
+    }
+    .form-control.inline{
+        width:45%;
+    }
+    .label.inline{
+        font-size: 14px;
+    }
+}
